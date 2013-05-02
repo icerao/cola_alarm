@@ -16,13 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d5c6d58-e6c6-445c-89c5-b7e9547b02df" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\icerao.TENCENT\Documents\GitHub\cola_alarm\gen\com\bluysky\alarm\BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/bluesky/alarm/BuildConfig.java" />
-      <change type="MOVED" beforePath="C:\Users\icerao.TENCENT\Documents\GitHub\cola_alarm\gen\com\bluysky\alarm\Manifest.java" afterPath="$PROJECT_DIR$/gen/com/bluesky/alarm/Manifest.java" />
-      <change type="MOVED" beforePath="C:\Users\icerao.TENCENT\Documents\GitHub\cola_alarm\gen\com\bluysky\alarm\R.java" afterPath="$PROJECT_DIR$/gen/com/bluesky/alarm/R.java" />
-      <change type="MOVED" beforePath="C:\Users\icerao.TENCENT\Documents\GitHub\cola_alarm\src\com\bluysky\alarm\AlarmConstanst.java" afterPath="$PROJECT_DIR$/src/com/bluesky/alarm/AlarmConstanst.java" />
-      <change type="MOVED" beforePath="C:\Users\icerao.TENCENT\Documents\GitHub\cola_alarm\src\com\bluysky\alarm\AlarmReceiver.java" afterPath="$PROJECT_DIR$/src/com/bluesky/alarm/AlarmReceiver.java" />
-      <change type="MOVED" beforePath="C:\Users\icerao.TENCENT\Documents\GitHub\cola_alarm\src\com\bluysky\alarm\MyActivity.java" afterPath="$PROJECT_DIR$/src/com/bluesky/alarm/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bluesky/alarm/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/bluesky/alarm/MyActivity.java" />
     </list>
     <ignored path="cola_alarm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +25,7 @@
     <file path="/AlarmReceiver.java" changelist="2d5c6d58-e6c6-445c-89c5-b7e9547b02df" time="1367497908016" ignored="false" />
     <file path="/AlarmConstanst.java" changelist="2d5c6d58-e6c6-445c-89c5-b7e9547b02df" time="1367497712082" ignored="false" />
     <file path="/strings.xml" changelist="2d5c6d58-e6c6-445c-89c5-b7e9547b02df" time="1367497883273" ignored="false" />
-    <file path="/MyActivity.java" changelist="2d5c6d58-e6c6-445c-89c5-b7e9547b02df" time="1367498469975" ignored="false" />
+    <file path="/MyActivity.java" changelist="2d5c6d58-e6c6-445c-89c5-b7e9547b02df" time="1367499442458" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,60 +84,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.39977604">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.72">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bluesky/alarm/MyActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="55" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlarmReceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bluesky/alarm/AlarmReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AlarmConstanst.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bluesky/alarm/AlarmConstanst.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="76" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bluesky/alarm/MyActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="5" selection-start="659" selection-end="659" vertical-scroll-proportion="0.32362822">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PendingIntent.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/dev/android-sdk-windows/platforms/android-8/android.jar!/android/app/PendingIntent.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="28" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/com/bluysky/alarm/AlarmReceiver.java" />
         <option value="$PROJECT_DIR$/src/com/bluysky/alarm/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/bluesky/alarm/AlarmReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/bluesky/alarm/MyActivity.java" />
       </list>
     </option>
   </component>
@@ -202,7 +165,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -241,14 +204,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluesky" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="alarm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -263,29 +218,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cola_alarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cola_alarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="alarm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,7 +403,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22998933" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22998933" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -484,7 +421,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28441834" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28441834" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -568,9 +505,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.39977604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bluesky/alarm/AlarmReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.4568869">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.72">
+        <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.078341015">
           <folding />
         </state>
       </provider>
@@ -582,35 +545,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+    <entry file="jar://D:/dev/android-sdk-windows/platforms/android-8/android.jar!/android/app/PendingIntent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bluesky/alarm/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="55" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bluesky/alarm/AlarmReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.39977604">
+        <state line="25" column="5" selection-start="659" selection-end="659" vertical-scroll-proportion="0.32362822">
           <folding />
         </state>
       </provider>

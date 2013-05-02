@@ -21,23 +21,31 @@ public class MyActivity extends Activity implements View.OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
-		Button startBtn=(Button) findViewById(R.id.startBtn);
+		Button startBtn = (Button) findViewById(R.id.startBtn);
 		startBtn.setOnClickListener(this);
 	}
 
-	public void setAlarm(Context context,long timeInMillis)
+	public void setAlarm(Context context, long timeInMillis)
 	{
-		Log.d("cola","setalarm");
-		AlarmManager am=(AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
-		Intent intent=new Intent(AlarmConstanst.ALARM_ACTION);
-		PendingIntent sender = PendingIntent.getBroadcast(context,0,intent,PendingIntent.FLAG_CANCEL_CURRENT);
+		Log.d("cola", "setalarm");
+		AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+		Intent intent = new Intent(AlarmConstanst.ALARM_ACTION);
+		PendingIntent sender = PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
 		int interval = 5000;//闹铃间隔
-		am.setRepeating(AlarmManager.RTC_WAKEUP,timeInMillis,interval,sender);
+		am.setRepeating(AlarmManager.RTC_WAKEUP, timeInMillis, interval, sender);
+	}
+
+	public void cancelAlarm(Context context)
+	{
+		Intent intent = new Intent(AlarmConstanst.ALARM_ACTION);
+		PendingIntent sender = PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+		AlarmManager alarm = (AlarmManager) getSystemService(ALARM_SERVICE);
+		alarm.cancel(sender);
 	}
 
 	@Override
 	public void onClick(View view)
 	{
-		setAlarm(this,System.currentTimeMillis()+5000);
+		setAlarm(this, System.currentTimeMillis() + 5000);
 	}
 }
