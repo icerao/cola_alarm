@@ -1,4 +1,4 @@
-package com.bluysky.alarm;
+package com.bluesky.alarm;
 
 /* This stub is for using by IDE only. It is NOT the Manifest class actually packed into APK */
 public final class Manifest {

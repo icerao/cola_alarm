@@ -1,4 +1,4 @@
-package com.bluysky.alarm;
+package com.bluesky.alarm;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

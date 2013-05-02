@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.bluysky.alarm;
+package com.bluesky.alarm;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;

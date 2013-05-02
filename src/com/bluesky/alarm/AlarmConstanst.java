@@ -1,4 +1,4 @@
-package com.bluysky.alarm;
+package com.bluesky.alarm;
 
 /**
  * User: icerao
