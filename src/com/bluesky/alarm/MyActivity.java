@@ -46,6 +46,13 @@ public class MyActivity extends Activity implements View.OnClickListener
 	@Override
 	public void onClick(View view)
 	{
-		setAlarm(this, System.currentTimeMillis() + 5000);
+		if(view.getId()==R.id.startBtn)
+		{
+			setAlarm(this, System.currentTimeMillis() + 5000);
+		}
+		else if(view.getId()==R.id.cancelBtn)
+		{
+			cancelAlarm(this);
+		}
 	}
 }
